@@ -1,0 +1,17 @@
+.photo-grid__item {
+  width: 100%;
+  display: block;
+}
+
+@media screen and (max-width: 767px) {
+  .photo-grid__item {
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .photo-grid__item {
+    width: 288px;
+    height: 216px;
+  }
+}

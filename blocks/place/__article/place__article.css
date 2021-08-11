@@ -1,0 +1,10 @@
+.place__article {
+    grid-area: description;
+  }
+  
+  @media screen and (max-width: 320px) {
+    .place__article {
+      padding: 0 16px;
+    }
+  }
+  
