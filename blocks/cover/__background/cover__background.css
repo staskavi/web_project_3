@@ -3,6 +3,7 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100% 100%;
+    min-height: 740px;
     height: 100%;
     width: 100%;
     display: flex;
@@ -27,3 +28,14 @@
     opacity: .8;
   }
   
+  @media screen and (max-width: 1024px) {
+    .cover__background {
+      min-height: calc(100vw * (640/1024));
+    }
+  }
+  
+  @media screen  and (max-width: 320px) {
+    .cover__background {
+      min-height: calc(100vw * (200/320));
+    }
+  }
