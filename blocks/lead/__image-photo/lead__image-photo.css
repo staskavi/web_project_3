@@ -3,3 +3,16 @@
     margin-bottom: 8px;
     object-fit: contain;
   }
+  @media screen and (max-width: 768px) {
+    .lead__image-photo {
+      max-width: 768px;
+      min-height: 480px;
+      object-fit: fill;
+    }
+  }
+  @media screen and (max-width: 320px) {
+    .lead__image-photo {
+      max-width: 320px;
+      min-height: 200px;
+    }
+  }
